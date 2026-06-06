@@ -1,0 +1,28 @@
+# --- Python Environment ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Project Cache & System Files ---
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+# --- Data Strategy ---
+# We ignore the actual data files, but keep the folder structure
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Reports & Figures ---
+# Ignore generated report images so you don't commit dated screenshots
+reports/figures/*
+!reports/figures/.gitkeep
+
+# --- Model & Utility specific artifacts ---
+# These folders are tracked, but we ignore their internal compiled caches
+models/__pycache__/
+utils/__pycache__/

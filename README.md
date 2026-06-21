@@ -1,5 +1,7 @@
 # E-Commerce Customer Segmentation Engine
 
+🚀 **Live Demo:** [Launch Streamlit Application](https://uk-ecommerce-customer-segmentation.streamlit.app/)
+
 ## Abstract
 This project presents an end-to-end machine learning pipeline that transforms raw transactional data into structured, actionable business intelligence. Utilizing the classic Online Retail II dataset, the framework aggregates transactional logs into individual Recency, Frequency, and Monetary (RFM) vectors. To overcome severe data skew and outlier distortion typical of purchase histories, data undergoes systematic cleansing, Winsorization, and log-transformation before feature scaling. Unsupervised learning via the K-Means clustering algorithm isolates distinct customer behavioral profiles. The entire pipeline is engineered as an enterprise-grade, modular system architecture and served via an interactive Streamlit analytics platform for real-time strategic decision making.
 

@@ -17,6 +17,9 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+# FORCE TRACK ALL PARQUET DEPENDENCIES FOR PRODUCTION RUNTIMES
+!data/processed/*.parquet
+
 # --- Reports & Figures ---
 # Ignore generated report images so you don't commit dated screenshots
 reports/figures/*
